@@ -14,6 +14,9 @@
  * limitations under the License.
  */
 
+const OFF = 0;
+const ERROR = 2;
+
 /**
  * We need to detect environment for ESLint CLI because there are rules
  * which are computationally expensive to perform during development.
@@ -44,7 +47,7 @@ module.exports = {
   parserOptions: {
     // `parserOptions.project` is required for generating parser service to run specific rules like
     // `prefer-nullish-coalescing`, and `prefer-optional-chain`
-    project: ['./packages/*/tsconfig.json'],
+    project: ['./packages/*/tsconfig.json', './fixtures/*/tsconfig.json'],
     // Use this experimental flag to improve memory usage while using Typescript project reference
     // See https://github.com/typescript-eslint/typescript-eslint/issues/2094
     EXPERIMENTAL_useSourceOfProjectReferenceRedirect: true,
@@ -55,4 +58,9 @@ module.exports = {
     !enableFastMode && 'plugin:@finos/legend-studio/computationally-expensive',
     'plugin:@finos/legend-studio/scripts-override', // must be called last to turn off rules which are not applicable for scripts
   ].filter(Boolean),
+  rules: {
+    // turn off the prettier format check when running this in CI (i.e. production environment)
+    // to speed up pipeline
+    'prettier/prettier': process.env.NODE_ENV === 'production' ? OFF : ERROR,
+  },
 };

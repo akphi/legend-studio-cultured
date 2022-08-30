@@ -1,0 +1,7 @@
+{
+  // This is the `build` counterpart of `tsconfig.json`
+  "files": [],
+  "references": [
+    { "path": "packages/test-dsl-extension/tsconfig.build.json" }
+  ]
+}

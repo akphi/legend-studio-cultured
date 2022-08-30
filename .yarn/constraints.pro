@@ -59,7 +59,7 @@ gen_enforced_field(WorkspaceCwd, 'private', WorkspacePrivate) :-
     ).
 
 % Required to display information in NPM properly
-gen_enforced_field(WorkspaceCwd, 'license', 'MIT') :-
+gen_enforced_field(WorkspaceCwd, 'license', 'Apache-2.0') :-
   workspace(WorkspaceCwd),
   % Skip private workspaces
     \+ workspace_field_test(WorkspaceCwd, 'private', 'true').
