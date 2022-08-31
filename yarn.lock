@@ -1793,9 +1793,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@finos/babel-preset-legend-studio@portal:../studio/packages/babel-preset::locator=legend-studio%40workspace%3A.":
-  version: 0.0.0-use.local
-  resolution: "@finos/babel-preset-legend-studio@portal:../studio/packages/babel-preset::locator=legend-studio%40workspace%3A."
+"@finos/babel-preset-legend-studio@file:../studio/packages/babel-preset/build/local-snapshot.tgz::locator=legend-studio%40workspace%3A.":
+  version: 2.0.11
+  resolution: "@finos/babel-preset-legend-studio@file:../studio/packages/babel-preset/build/local-snapshot.tgz::locator=legend-studio%40workspace%3A."
   dependencies:
     "@babel/helper-plugin-utils": 7.18.9
     "@babel/preset-env": 7.18.10
@@ -1805,12 +1805,13 @@ __metadata:
     react-refresh: 0.14.0
   peerDependencies:
     "@babel/core": ^7.16.0
+  checksum: f6626b750453a0ac4b1aca9c14460e23bcbedaba418cc4030693de6079ed120872bb50accf54940c68a9e6e193ae3f0e8369048488d514d0c0e889b5a701e727
   languageName: node
-  linkType: soft
+  linkType: hard
 
-"@finos/eslint-plugin-legend-studio@portal:../studio/packages/eslint-plugin::locator=legend-studio%40workspace%3A.":
-  version: 0.0.0-use.local
-  resolution: "@finos/eslint-plugin-legend-studio@portal:../studio/packages/eslint-plugin::locator=legend-studio%40workspace%3A."
+"@finos/eslint-plugin-legend-studio@file:../studio/packages/eslint-plugin/build/local-snapshot.tgz::locator=legend-studio%40workspace%3A.":
+  version: 2.0.10
+  resolution: "@finos/eslint-plugin-legend-studio@file:../studio/packages/eslint-plugin/build/local-snapshot.tgz::locator=legend-studio%40workspace%3A."
   dependencies:
     "@babel/core": 7.18.13
     "@babel/eslint-parser": 7.18.9
@@ -1826,22 +1827,23 @@ __metadata:
   peerDependencies:
     eslint: ^8.6.0
     prettier: ^2.2.1
+  checksum: dea261de6dbf684690683b1c1a78311c2b5cca9fdc787ceb17430c59bad49cffb7a7b74d1565716cd4c26b169e37f7ace45c6dcf59ad94fe707b481143022cfc
   languageName: node
-  linkType: soft
+  linkType: hard
 
-"@finos/legend-application-query@portal:../studio/packages/legend-application-query::locator=legend-studio%40workspace%3A.":
-  version: 0.0.0-use.local
-  resolution: "@finos/legend-application-query@portal:../studio/packages/legend-application-query::locator=legend-studio%40workspace%3A."
+"@finos/legend-application-query@file:../studio/packages/legend-application-query/build/local-snapshot.tgz::locator=legend-studio%40workspace%3A.":
+  version: 5.2.6
+  resolution: "@finos/legend-application-query@file:../studio/packages/legend-application-query/build/local-snapshot.tgz::locator=legend-studio%40workspace%3A."
   dependencies:
     "@ag-grid-community/client-side-row-model": 28.1.1
     "@ag-grid-community/core": 28.1.1
     "@ag-grid-community/react": 28.1.1
-    "@finos/legend-application": "workspace:*"
-    "@finos/legend-art": "workspace:*"
-    "@finos/legend-graph": "workspace:*"
-    "@finos/legend-server-depot": "workspace:*"
-    "@finos/legend-shared": "workspace:*"
-    "@finos/legend-storage": "workspace:*"
+    "@finos/legend-application": 7.1.5
+    "@finos/legend-art": 3.0.3
+    "@finos/legend-graph": 14.0.5
+    "@finos/legend-server-depot": 3.0.8
+    "@finos/legend-shared": 6.0.3
+    "@finos/legend-storage": 3.0.7
     "@testing-library/react": 13.3.0
     "@types/react": 18.0.17
     "@types/react-dom": 18.0.6
@@ -1861,43 +1863,45 @@ __metadata:
     serializr: 2.0.5
   peerDependencies:
     react: ^18.0.0
+  checksum: a8a043686b3678e3835f626c01249826ff629b9e4dad0fe4abd9cdc20223bdebded39b435232caa108cbaefc1c66416f388a67bbb81abf30ad8ad9944c22cbee
   languageName: node
-  linkType: soft
+  linkType: hard
 
-"@finos/legend-application-studio-bootstrap@portal:../studio/packages/legend-application-studio-bootstrap::locator=legend-studio%40workspace%3A.":
-  version: 0.0.0-use.local
-  resolution: "@finos/legend-application-studio-bootstrap@portal:../studio/packages/legend-application-studio-bootstrap::locator=legend-studio%40workspace%3A."
+"@finos/legend-application-studio-bootstrap@file:../studio/packages/legend-application-studio-bootstrap/build/local-snapshot.tgz::locator=legend-studio%40workspace%3A.":
+  version: 7.10.0
+  resolution: "@finos/legend-application-studio-bootstrap@file:../studio/packages/legend-application-studio-bootstrap/build/local-snapshot.tgz::locator=legend-studio%40workspace%3A."
   dependencies:
-    "@finos/legend-application": "workspace:*"
-    "@finos/legend-application-studio": "workspace:*"
-    "@finos/legend-art": "workspace:*"
-    "@finos/legend-extension-application-studio-query-builder": "workspace:*"
-    "@finos/legend-extension-dsl-data-space": "workspace:*"
-    "@finos/legend-extension-dsl-diagram": "workspace:*"
-    "@finos/legend-extension-dsl-persistence": "workspace:*"
-    "@finos/legend-extension-dsl-persistence-cloud": "workspace:*"
-    "@finos/legend-extension-dsl-text": "workspace:*"
-    "@finos/legend-extension-external-format-json-schema": "workspace:*"
-    "@finos/legend-extension-external-language-morphir": "workspace:*"
-    "@finos/legend-extension-external-store-service": "workspace:*"
-    "@finos/legend-graph": "workspace:*"
-    "@finos/legend-shared": "workspace:*"
+    "@finos/legend-application": 7.1.5
+    "@finos/legend-application-studio": 15.0.1
+    "@finos/legend-art": 3.0.3
+    "@finos/legend-extension-application-studio-query-builder": 3.0.10
+    "@finos/legend-extension-dsl-data-space": 6.1.9
+    "@finos/legend-extension-dsl-diagram": 5.0.9
+    "@finos/legend-extension-dsl-persistence": 3.0.9
+    "@finos/legend-extension-dsl-persistence-cloud": 3.0.9
+    "@finos/legend-extension-dsl-text": 4.0.9
+    "@finos/legend-extension-external-format-json-schema": 3.0.9
+    "@finos/legend-extension-external-language-morphir": 2.0.21
+    "@finos/legend-extension-external-store-service": 4.0.9
+    "@finos/legend-graph": 14.0.5
+    "@finos/legend-shared": 6.0.3
     "@types/react": 18.0.17
     react: 18.2.0
+  checksum: c1e366745fa9d0d985e4e73722e45b0764b75d14086921c7cf217bcde5b638899852aaf4ccaf52d44f7a88e24ddfbd5b581522a6c7d269ee076e45536fd34809
   languageName: node
-  linkType: soft
+  linkType: hard
 
-"@finos/legend-application-studio@portal:../studio/packages/legend-application-studio::locator=legend-studio%40workspace%3A.":
-  version: 0.0.0-use.local
-  resolution: "@finos/legend-application-studio@portal:../studio/packages/legend-application-studio::locator=legend-studio%40workspace%3A."
+"@finos/legend-application-studio@file:../studio/packages/legend-application-studio/build/local-snapshot.tgz::locator=legend-studio%40workspace%3A.":
+  version: 15.0.1
+  resolution: "@finos/legend-application-studio@file:../studio/packages/legend-application-studio/build/local-snapshot.tgz::locator=legend-studio%40workspace%3A."
   dependencies:
-    "@finos/legend-application": "workspace:*"
-    "@finos/legend-art": "workspace:*"
-    "@finos/legend-graph": "workspace:*"
-    "@finos/legend-server-depot": "workspace:*"
-    "@finos/legend-server-sdlc": "workspace:*"
-    "@finos/legend-shared": "workspace:*"
-    "@finos/legend-storage": "workspace:*"
+    "@finos/legend-application": 7.1.5
+    "@finos/legend-art": 3.0.3
+    "@finos/legend-graph": 14.0.5
+    "@finos/legend-server-depot": 3.0.8
+    "@finos/legend-server-sdlc": 4.0.11
+    "@finos/legend-shared": 6.0.3
+    "@finos/legend-storage": 3.0.7
     "@testing-library/react": 13.3.0
     "@types/react": 18.0.17
     "@types/react-dom": 18.0.6
@@ -1920,16 +1924,17 @@ __metadata:
     serializr: 2.0.5
   peerDependencies:
     react: ^18.0.0
+  checksum: 93498daa535971fe73af4cf33e25e78eb3ededc1a187da3a7367eb055a918bf4b54c0a6d35e32d6c2cb40309dab382877eaadddba56431cfb8e2fed1c710dd5a
   languageName: node
-  linkType: soft
+  linkType: hard
 
-"@finos/legend-application@portal:../studio/packages/legend-application::locator=legend-studio%40workspace%3A.":
-  version: 0.0.0-use.local
-  resolution: "@finos/legend-application@portal:../studio/packages/legend-application::locator=legend-studio%40workspace%3A."
+"@finos/legend-application@file:../studio/packages/legend-application/build/local-snapshot.tgz::locator=legend-studio%40workspace%3A.":
+  version: 7.1.5
+  resolution: "@finos/legend-application@file:../studio/packages/legend-application/build/local-snapshot.tgz::locator=legend-studio%40workspace%3A."
   dependencies:
-    "@finos/legend-art": "workspace:*"
-    "@finos/legend-graph": "workspace:*"
-    "@finos/legend-shared": "workspace:*"
+    "@finos/legend-art": 3.0.3
+    "@finos/legend-graph": 14.0.5
+    "@finos/legend-shared": 6.0.3
     "@types/css-font-loading-module": 0.0.7
     "@types/papaparse": 5.3.4
     "@types/react": 18.0.17
@@ -1950,16 +1955,17 @@ __metadata:
     sql-formatter: 10.0.0
   peerDependencies:
     react: ^18.0.0
+  checksum: 2647808aa3bf51e34cf3f378e8ec0cf03503e88e22e818549277ea4dc32ee38c5c6ab74f7a4ee4c66cc6d123ad611fc6bc65969718c51ff556f173618815efbc
   languageName: node
-  linkType: soft
+  linkType: hard
 
-"@finos/legend-art@portal:../studio/packages/legend-art::locator=legend-studio%40workspace%3A.":
-  version: 0.0.0-use.local
-  resolution: "@finos/legend-art@portal:../studio/packages/legend-art::locator=legend-studio%40workspace%3A."
+"@finos/legend-art@file:../studio/packages/legend-art/build/local-snapshot.tgz::locator=legend-studio%40workspace%3A.":
+  version: 3.0.3
+  resolution: "@finos/legend-art@file:../studio/packages/legend-art/build/local-snapshot.tgz::locator=legend-studio%40workspace%3A."
   dependencies:
     "@emotion/react": 11.10.4
     "@emotion/styled": 11.10.4
-    "@finos/legend-shared": "workspace:*"
+    "@finos/legend-shared": 6.0.3
     "@fontsource/raleway": 4.5.10
     "@fontsource/roboto": 4.5.8
     "@fontsource/roboto-condensed": 4.5.9
@@ -1986,12 +1992,13 @@ __metadata:
     remark-gfm: 3.0.1
   peerDependencies:
     react: ^18.0.0
+  checksum: 823ec05b2674168ed626c6fadb688e9b438e49605db585bcb10d5364cc54d5d7a76c32276d41e0a50d9854191b0d0c06664366d1c35950c396e7c09a2c71b72f
   languageName: node
-  linkType: soft
+  linkType: hard
 
-"@finos/legend-dev-utils@portal:../studio/packages/legend-dev-utils::locator=legend-studio%40workspace%3A.":
-  version: 0.0.0-use.local
-  resolution: "@finos/legend-dev-utils@portal:../studio/packages/legend-dev-utils::locator=legend-studio%40workspace%3A."
+"@finos/legend-dev-utils@file:../studio/packages/legend-dev-utils/build/local-snapshot.tgz::locator=legend-studio%40workspace%3A.":
+  version: 2.0.13
+  resolution: "@finos/legend-dev-utils@file:../studio/packages/legend-dev-utils/build/local-snapshot.tgz::locator=legend-studio%40workspace%3A."
   dependencies:
     "@babel/core": 7.18.13
     "@changesets/assemble-release-plan": 5.2.1
@@ -2033,22 +2040,23 @@ __metadata:
     sass-loader: 13.0.2
     typescript: 4.8.2
     webpack: 5.74.0
+  checksum: 294d05df312a530f6769bb3202ca18dd960de7b0a332006a65029b4b4cbf6e6326df16dc356601599aff74a2f36ba37b3a70cec8bdeb7c9f7633b099f838b693
   languageName: node
-  linkType: soft
+  linkType: hard
 
-"@finos/legend-extension-application-studio-query-builder@portal:../studio/packages/legend-extension-application-studio-query-builder::locator=legend-studio%40workspace%3A.":
-  version: 0.0.0-use.local
-  resolution: "@finos/legend-extension-application-studio-query-builder@portal:../studio/packages/legend-extension-application-studio-query-builder::locator=legend-studio%40workspace%3A."
+"@finos/legend-extension-application-studio-query-builder@file:../studio/packages/legend-extension-application-studio-query-builder/build/local-snapshot.tgz::locator=legend-studio%40workspace%3A.":
+  version: 3.0.10
+  resolution: "@finos/legend-extension-application-studio-query-builder@file:../studio/packages/legend-extension-application-studio-query-builder/build/local-snapshot.tgz::locator=legend-studio%40workspace%3A."
   dependencies:
-    "@finos/legend-application": "workspace:*"
-    "@finos/legend-application-query": "workspace:*"
-    "@finos/legend-application-studio": "workspace:*"
-    "@finos/legend-art": "workspace:*"
-    "@finos/legend-extension-dsl-diagram": "workspace:*"
-    "@finos/legend-graph": "workspace:*"
-    "@finos/legend-server-depot": "workspace:*"
-    "@finos/legend-shared": "workspace:*"
-    "@finos/legend-storage": "workspace:*"
+    "@finos/legend-application": 7.1.5
+    "@finos/legend-application-query": 5.2.6
+    "@finos/legend-application-studio": 15.0.1
+    "@finos/legend-art": 3.0.3
+    "@finos/legend-extension-dsl-diagram": 5.0.9
+    "@finos/legend-graph": 14.0.5
+    "@finos/legend-server-depot": 3.0.8
+    "@finos/legend-shared": 6.0.3
+    "@finos/legend-storage": 3.0.7
     "@types/react": 18.0.17
     mobx: 6.6.1
     mobx-react-lite: 3.4.0
@@ -2056,22 +2064,23 @@ __metadata:
     react-dom: 18.2.0
   peerDependencies:
     react: ^18.0.0
+  checksum: 7643b4e03064932c01c296b0689396a3f4a4ee7d63164bf5f9ea585ce61b38d10a4a5f1dd32583502f7622198573c9f6581f23818d6bdd66a2313ca18b6d2bd1
   languageName: node
-  linkType: soft
+  linkType: hard
 
-"@finos/legend-extension-dsl-data-space@portal:../studio/packages/legend-extension-dsl-data-space::locator=legend-studio%40workspace%3A.":
-  version: 0.0.0-use.local
-  resolution: "@finos/legend-extension-dsl-data-space@portal:../studio/packages/legend-extension-dsl-data-space::locator=legend-studio%40workspace%3A."
+"@finos/legend-extension-dsl-data-space@file:../studio/packages/legend-extension-dsl-data-space/build/local-snapshot.tgz::locator=legend-studio%40workspace%3A.":
+  version: 6.1.9
+  resolution: "@finos/legend-extension-dsl-data-space@file:../studio/packages/legend-extension-dsl-data-space/build/local-snapshot.tgz::locator=legend-studio%40workspace%3A."
   dependencies:
-    "@finos/legend-application": "workspace:*"
-    "@finos/legend-application-query": "workspace:*"
-    "@finos/legend-application-studio": "workspace:*"
-    "@finos/legend-art": "workspace:*"
-    "@finos/legend-extension-dsl-diagram": "workspace:*"
-    "@finos/legend-graph": "workspace:*"
-    "@finos/legend-server-depot": "workspace:*"
-    "@finos/legend-shared": "workspace:*"
-    "@finos/legend-storage": "workspace:*"
+    "@finos/legend-application": 7.1.5
+    "@finos/legend-application-query": 5.2.6
+    "@finos/legend-application-studio": 15.0.1
+    "@finos/legend-art": 3.0.3
+    "@finos/legend-extension-dsl-diagram": 5.0.9
+    "@finos/legend-graph": 14.0.5
+    "@finos/legend-server-depot": 3.0.8
+    "@finos/legend-shared": 6.0.3
+    "@finos/legend-storage": 3.0.7
     "@types/react": 18.0.17
     mobx: 6.6.1
     mobx-react-lite: 3.4.0
@@ -2082,19 +2091,20 @@ __metadata:
     serializr: 2.0.5
   peerDependencies:
     react: ^18.0.0
+  checksum: cb9bce3029eebfd2b29815ee374405504bad798d97c93cff223f7e103ce3debafd83bcec30b8a1ab2a305e80ec301c73558fc5d3e43571e691cd9f72ab81d589
   languageName: node
-  linkType: soft
+  linkType: hard
 
-"@finos/legend-extension-dsl-diagram@portal:../studio/packages/legend-extension-dsl-diagram::locator=legend-studio%40workspace%3A.":
-  version: 0.0.0-use.local
-  resolution: "@finos/legend-extension-dsl-diagram@portal:../studio/packages/legend-extension-dsl-diagram::locator=legend-studio%40workspace%3A."
+"@finos/legend-extension-dsl-diagram@file:../studio/packages/legend-extension-dsl-diagram/build/local-snapshot.tgz::locator=legend-studio%40workspace%3A.":
+  version: 5.0.9
+  resolution: "@finos/legend-extension-dsl-diagram@file:../studio/packages/legend-extension-dsl-diagram/build/local-snapshot.tgz::locator=legend-studio%40workspace%3A."
   dependencies:
-    "@finos/legend-application": "workspace:*"
-    "@finos/legend-application-studio": "workspace:*"
-    "@finos/legend-art": "workspace:*"
-    "@finos/legend-graph": "workspace:*"
-    "@finos/legend-shared": "workspace:*"
-    "@finos/legend-storage": "workspace:*"
+    "@finos/legend-application": 7.1.5
+    "@finos/legend-application-studio": 15.0.1
+    "@finos/legend-art": 3.0.3
+    "@finos/legend-graph": 14.0.5
+    "@finos/legend-shared": 6.0.3
+    "@finos/legend-storage": 3.0.7
     "@types/react": 18.0.17
     mobx: 6.6.1
     mobx-react-lite: 3.4.0
@@ -2105,101 +2115,60 @@ __metadata:
     serializr: 2.0.5
   peerDependencies:
     react: ^18.0.0
+  checksum: bc0da4e7a6c1faa48cf10b667bd3a898d657d1c48a719f3601ef923db8cd628a33463d06c2a680c05f1ff586154c51501b364dd7c7d71d35f7f606111ba651d4
   languageName: node
-  linkType: soft
+  linkType: hard
 
-"@finos/legend-extension-dsl-persistence-cloud@portal:../studio/packages/legend-extension-dsl-persistence-cloud::locator=legend-studio%40workspace%3A.":
-  version: 0.0.0-use.local
-  resolution: "@finos/legend-extension-dsl-persistence-cloud@portal:../studio/packages/legend-extension-dsl-persistence-cloud::locator=legend-studio%40workspace%3A."
+"@finos/legend-extension-dsl-persistence-cloud@file:../studio/packages/legend-extension-dsl-persistence-cloud/build/local-snapshot.tgz::locator=legend-studio%40workspace%3A.":
+  version: 3.0.9
+  resolution: "@finos/legend-extension-dsl-persistence-cloud@file:../studio/packages/legend-extension-dsl-persistence-cloud/build/local-snapshot.tgz::locator=legend-studio%40workspace%3A."
   dependencies:
-    "@finos/legend-application": "workspace:*"
-    "@finos/legend-application-studio": "workspace:*"
-    "@finos/legend-extension-dsl-persistence": "workspace:*"
-    "@finos/legend-graph": "workspace:*"
-    "@finos/legend-shared": "workspace:*"
-    "@finos/legend-storage": "workspace:*"
+    "@finos/legend-application": 7.1.5
+    "@finos/legend-application-studio": 15.0.1
+    "@finos/legend-extension-dsl-persistence": 3.0.9
+    "@finos/legend-graph": 14.0.5
+    "@finos/legend-shared": 6.0.3
+    "@finos/legend-storage": 3.0.7
     "@types/react": 18.0.17
     mobx: 6.6.1
     react: 18.2.0
     serializr: 2.0.5
   peerDependencies:
     react: ^18.0.0
+  checksum: fb3a1128723eabcd17af36b70bc6a9df3327be9fe3126cc7093a61c9c98d0411c26a2d13080241b1cafad7026bf18523c0b473ce42c03c021b67940402e661f0
   languageName: node
-  linkType: soft
+  linkType: hard
 
-"@finos/legend-extension-dsl-persistence@portal:../studio/packages/legend-extension-dsl-persistence::locator=legend-studio%40workspace%3A.":
-  version: 0.0.0-use.local
-  resolution: "@finos/legend-extension-dsl-persistence@portal:../studio/packages/legend-extension-dsl-persistence::locator=legend-studio%40workspace%3A."
+"@finos/legend-extension-dsl-persistence@file:../studio/packages/legend-extension-dsl-persistence/build/local-snapshot.tgz::locator=legend-studio%40workspace%3A.":
+  version: 3.0.9
+  resolution: "@finos/legend-extension-dsl-persistence@file:../studio/packages/legend-extension-dsl-persistence/build/local-snapshot.tgz::locator=legend-studio%40workspace%3A."
   dependencies:
-    "@finos/legend-application": "workspace:*"
-    "@finos/legend-application-studio": "workspace:*"
-    "@finos/legend-art": "workspace:*"
-    "@finos/legend-graph": "workspace:*"
-    "@finos/legend-shared": "workspace:*"
-    "@finos/legend-storage": "workspace:*"
+    "@finos/legend-application": 7.1.5
+    "@finos/legend-application-studio": 15.0.1
+    "@finos/legend-art": 3.0.3
+    "@finos/legend-graph": 14.0.5
+    "@finos/legend-shared": 6.0.3
+    "@finos/legend-storage": 3.0.7
     "@types/react": 18.0.17
     mobx: 6.6.1
     react: 18.2.0
     serializr: 2.0.5
   peerDependencies:
     react: ^18.0.0
+  checksum: 42a50366380c01a34f2c11e7257635bcf1910ff83d7cd721a1d0e9fd7eda7af0d3185aef00316379f8639e0ce3bfe9ee8838e241408ee1fdafd06f3f086f9d89
   languageName: node
-  linkType: soft
+  linkType: hard
 
-"@finos/legend-extension-dsl-text@portal:../studio/packages/legend-extension-dsl-text::locator=legend-studio%40workspace%3A.":
-  version: 0.0.0-use.local
-  resolution: "@finos/legend-extension-dsl-text@portal:../studio/packages/legend-extension-dsl-text::locator=legend-studio%40workspace%3A."
+"@finos/legend-extension-dsl-text@file:../studio/packages/legend-extension-dsl-text/build/local-snapshot.tgz::locator=legend-studio%40workspace%3A.":
+  version: 4.0.9
+  resolution: "@finos/legend-extension-dsl-text@file:../studio/packages/legend-extension-dsl-text/build/local-snapshot.tgz::locator=legend-studio%40workspace%3A."
   dependencies:
-    "@finos/legend-application": "workspace:*"
-    "@finos/legend-application-studio": "workspace:*"
-    "@finos/legend-art": "workspace:*"
-    "@finos/legend-graph": "workspace:*"
-    "@finos/legend-shared": "workspace:*"
-    "@finos/legend-storage": "workspace:*"
-    "@types/react": 18.0.17
-    mobx: 6.6.1
-    mobx-react-lite: 3.4.0
-    react: 18.2.0
-    serializr: 2.0.5
-  peerDependencies:
-    react: ^18.0.0
-  languageName: node
-  linkType: soft
-
-"@finos/legend-extension-external-format-json-schema@portal:../studio/packages/legend-extension-external-format-json-schema::locator=legend-studio%40workspace%3A.":
-  version: 0.0.0-use.local
-  resolution: "@finos/legend-extension-external-format-json-schema@portal:../studio/packages/legend-extension-external-format-json-schema::locator=legend-studio%40workspace%3A."
-  dependencies:
-    "@finos/legend-graph": "workspace:*"
-    "@finos/legend-shared": "workspace:*"
-  languageName: node
-  linkType: soft
-
-"@finos/legend-extension-external-language-morphir@portal:../studio/packages/legend-extension-external-language-morphir::locator=legend-studio%40workspace%3A.":
-  version: 0.0.0-use.local
-  resolution: "@finos/legend-extension-external-language-morphir@portal:../studio/packages/legend-extension-external-language-morphir::locator=legend-studio%40workspace%3A."
-  dependencies:
-    "@finos/legend-application": "workspace:*"
-    "@finos/legend-application-studio": "workspace:*"
-    "@finos/legend-art": "workspace:*"
-    "@finos/legend-graph": "workspace:*"
-    "@finos/legend-server-depot": "workspace:*"
-    "@finos/legend-server-sdlc": "workspace:*"
-    "@finos/legend-shared": "workspace:*"
-    "@finos/legend-storage": "workspace:*"
-  languageName: node
-  linkType: soft
-
-"@finos/legend-extension-external-store-service@portal:../studio/packages/legend-extension-external-store-service::locator=legend-studio%40workspace%3A.":
-  version: 0.0.0-use.local
-  resolution: "@finos/legend-extension-external-store-service@portal:../studio/packages/legend-extension-external-store-service::locator=legend-studio%40workspace%3A."
-  dependencies:
-    "@finos/legend-application": "workspace:*"
-    "@finos/legend-application-studio": "workspace:*"
-    "@finos/legend-art": "workspace:*"
-    "@finos/legend-graph": "workspace:*"
-    "@finos/legend-shared": "workspace:*"
-    "@finos/legend-storage": "workspace:*"
+    "@finos/legend-application": 7.1.5
+    "@finos/legend-application-studio": 15.0.1
+    "@finos/legend-art": 3.0.3
+    "@finos/legend-graph": 14.0.5
+    "@finos/legend-shared": 6.0.3
+    "@finos/legend-storage": 3.0.7
     "@types/react": 18.0.17
     mobx: 6.6.1
     mobx-react-lite: 3.4.0
@@ -2207,52 +2176,103 @@ __metadata:
     serializr: 2.0.5
   peerDependencies:
     react: ^18.0.0
+  checksum: 45c3a53c30c863820a5330f999dd70be45cb331008c805c5fb9bd71bab1c1f63fee67fdb8c82c1b08e8d95852075c1e11c811cea649cdeb7b7a226766d2c4cb9
   languageName: node
-  linkType: soft
+  linkType: hard
 
-"@finos/legend-graph@portal:../studio/packages/legend-graph::locator=legend-studio%40workspace%3A.":
-  version: 0.0.0-use.local
-  resolution: "@finos/legend-graph@portal:../studio/packages/legend-graph::locator=legend-studio%40workspace%3A."
+"@finos/legend-extension-external-format-json-schema@file:../studio/packages/legend-extension-external-format-json-schema/build/local-snapshot.tgz::locator=legend-studio%40workspace%3A.":
+  version: 3.0.9
+  resolution: "@finos/legend-extension-external-format-json-schema@file:../studio/packages/legend-extension-external-format-json-schema/build/local-snapshot.tgz::locator=legend-studio%40workspace%3A."
   dependencies:
-    "@finos/legend-shared": "workspace:*"
-    "@finos/legend-storage": "workspace:*"
+    "@finos/legend-graph": 14.0.5
+    "@finos/legend-shared": 6.0.3
+  checksum: 3ecde1736cb17f65493bf2f842b45d764edd652c52c61a03c726def75ff48f69423987b27910fa13d243e25b1a88ac0e5490fc693cdb014b9d8cf3cf7bfe2497
+  languageName: node
+  linkType: hard
+
+"@finos/legend-extension-external-language-morphir@file:../studio/packages/legend-extension-external-language-morphir/build/local-snapshot.tgz::locator=legend-studio%40workspace%3A.":
+  version: 2.0.21
+  resolution: "@finos/legend-extension-external-language-morphir@file:../studio/packages/legend-extension-external-language-morphir/build/local-snapshot.tgz::locator=legend-studio%40workspace%3A."
+  dependencies:
+    "@finos/legend-application": 7.1.5
+    "@finos/legend-application-studio": 15.0.1
+    "@finos/legend-art": 3.0.3
+    "@finos/legend-graph": 14.0.5
+    "@finos/legend-server-depot": 3.0.8
+    "@finos/legend-server-sdlc": 4.0.11
+    "@finos/legend-shared": 6.0.3
+    "@finos/legend-storage": 3.0.7
+  checksum: 5c993e10e5241b72e27097236e4e86cdbacc64e0a2049d762a53eab045bebb09158bd30ce0c7cbd63f5ad8e1ceb16fdd0bfec04a9be3db0e15d5774f8d67674f
+  languageName: node
+  linkType: hard
+
+"@finos/legend-extension-external-store-service@file:../studio/packages/legend-extension-external-store-service/build/local-snapshot.tgz::locator=legend-studio%40workspace%3A.":
+  version: 4.0.9
+  resolution: "@finos/legend-extension-external-store-service@file:../studio/packages/legend-extension-external-store-service/build/local-snapshot.tgz::locator=legend-studio%40workspace%3A."
+  dependencies:
+    "@finos/legend-application": 7.1.5
+    "@finos/legend-application-studio": 15.0.1
+    "@finos/legend-art": 3.0.3
+    "@finos/legend-graph": 14.0.5
+    "@finos/legend-shared": 6.0.3
+    "@finos/legend-storage": 3.0.7
+    "@types/react": 18.0.17
+    mobx: 6.6.1
+    mobx-react-lite: 3.4.0
+    react: 18.2.0
+    serializr: 2.0.5
+  peerDependencies:
+    react: ^18.0.0
+  checksum: 8ae24ee4544d30a24afe27305d6c1ca5534797cbe50742e7951bb783621823ba6f39886850bac1eba3c5575893e1ce6aff7cf7a78c228c3dd8314ae2f9a56737
+  languageName: node
+  linkType: hard
+
+"@finos/legend-graph@file:../studio/packages/legend-graph/build/local-snapshot.tgz::locator=legend-studio%40workspace%3A.":
+  version: 14.0.5
+  resolution: "@finos/legend-graph@file:../studio/packages/legend-graph/build/local-snapshot.tgz::locator=legend-studio%40workspace%3A."
+  dependencies:
+    "@finos/legend-shared": 6.0.3
+    "@finos/legend-storage": 3.0.7
     date-fns: 2.29.2
     mobx: 6.6.1
     mobx-react-lite: 3.4.0
     react: 18.2.0
     serializr: 2.0.5
+  checksum: 6e1c712f248b3835af5ad4927e65d6a2eff8bbce0fa87a89daf1e1ef320a576f65aa480d8049bbb4b396501db8b108110c25f97f0fd275f2b6dbb924add9427b
   languageName: node
-  linkType: soft
+  linkType: hard
 
-"@finos/legend-server-depot@portal:../studio/packages/legend-server-depot::locator=legend-studio%40workspace%3A.":
-  version: 0.0.0-use.local
-  resolution: "@finos/legend-server-depot@portal:../studio/packages/legend-server-depot::locator=legend-studio%40workspace%3A."
+"@finos/legend-server-depot@file:../studio/packages/legend-server-depot/build/local-snapshot.tgz::locator=legend-studio%40workspace%3A.":
+  version: 3.0.8
+  resolution: "@finos/legend-server-depot@file:../studio/packages/legend-server-depot/build/local-snapshot.tgz::locator=legend-studio%40workspace%3A."
   dependencies:
-    "@finos/legend-shared": "workspace:*"
-    "@finos/legend-storage": "workspace:*"
+    "@finos/legend-shared": 6.0.3
+    "@finos/legend-storage": 3.0.7
     mobx: 6.6.1
     mobx-react-lite: 3.4.0
     react: 18.2.0
     serializr: 2.0.5
+  checksum: f2a63da0ac973c77c89b119aaed8473153ed18b33bcd4634fc153a3e981ba8fd87645b7cfeeaf6ce3171cdca1ee40509b06ee9ac28176adfd6b6c2514210b43b
   languageName: node
-  linkType: soft
+  linkType: hard
 
-"@finos/legend-server-sdlc@portal:../studio/packages/legend-server-sdlc::locator=legend-studio%40workspace%3A.":
-  version: 0.0.0-use.local
-  resolution: "@finos/legend-server-sdlc@portal:../studio/packages/legend-server-sdlc::locator=legend-studio%40workspace%3A."
+"@finos/legend-server-sdlc@file:../studio/packages/legend-server-sdlc/build/local-snapshot.tgz::locator=legend-studio%40workspace%3A.":
+  version: 4.0.11
+  resolution: "@finos/legend-server-sdlc@file:../studio/packages/legend-server-sdlc/build/local-snapshot.tgz::locator=legend-studio%40workspace%3A."
   dependencies:
-    "@finos/legend-shared": "workspace:*"
-    "@finos/legend-storage": "workspace:*"
+    "@finos/legend-shared": 6.0.3
+    "@finos/legend-storage": 3.0.7
     mobx: 6.6.1
     mobx-react-lite: 3.4.0
     react: 18.2.0
     serializr: 2.0.5
+  checksum: b856cde828f622a985d53de04d35519af4f8dae1cfb7b6d32e6ecec881a869074b646f29a4aa3f7e7909d59f2e38299854269665fcea7a107d6d7a3ad83a25fb
   languageName: node
-  linkType: soft
+  linkType: hard
 
-"@finos/legend-shared@portal:../studio/packages/legend-shared::locator=legend-studio%40workspace%3A.":
-  version: 0.0.0-use.local
-  resolution: "@finos/legend-shared@portal:../studio/packages/legend-shared::locator=legend-studio%40workspace%3A."
+"@finos/legend-shared@file:../studio/packages/legend-shared/build/local-snapshot.tgz::locator=legend-studio%40workspace%3A.":
+  version: 6.0.3
+  resolution: "@finos/legend-shared@file:../studio/packages/legend-shared/build/local-snapshot.tgz::locator=legend-studio%40workspace%3A."
   dependencies:
     "@types/lodash-es": 4.17.6
     "@types/lossless-json": 1.0.1
@@ -2272,16 +2292,18 @@ __metadata:
     seedrandom: 3.0.5
     serializr: 2.0.5
     uuid: 8.3.2
+  checksum: 30fdb4a45984231bee4a1af17bbc0bacac2fdccb641fe4924ba2ce9d749803bb75a1bd96d3dbc9d18694786add760373bbfd8d1d29d089f6542d33a09c2ae33a
   languageName: node
-  linkType: soft
+  linkType: hard
 
-"@finos/legend-storage@portal:../studio/packages/legend-storage::locator=legend-studio%40workspace%3A.":
-  version: 0.0.0-use.local
-  resolution: "@finos/legend-storage@portal:../studio/packages/legend-storage::locator=legend-studio%40workspace%3A."
+"@finos/legend-storage@file:../studio/packages/legend-storage/build/local-snapshot.tgz::locator=legend-studio%40workspace%3A.":
+  version: 3.0.7
+  resolution: "@finos/legend-storage@file:../studio/packages/legend-storage/build/local-snapshot.tgz::locator=legend-studio%40workspace%3A."
   dependencies:
-    "@finos/legend-shared": "workspace:*"
+    "@finos/legend-shared": 6.0.3
+  checksum: db5611ee4e0594aa553412d98bae2f03e889a4eb1dca82145d82cbca52f19d8ba7c8ac36e21b37dea2312aa51031330708df21f083135e141c89a14e0ebf6825
   languageName: node
-  linkType: soft
+  linkType: hard
 
 "@fontsource/raleway@npm:4.5.10":
   version: 4.5.10
@@ -3030,9 +3052,9 @@ __metadata:
   linkType: hard
 
 "@sinclair/typebox@npm:^0.24.1":
-  version: 0.24.30
-  resolution: "@sinclair/typebox@npm:0.24.30"
-  checksum: 8f6a7ef6402b80f815d6fe3b8a6b554b4fcdd90bee79fc0599066aafc0ffea87ba4ab7f7f7af0e11a878b8ba1a30a7544265e1890902f8b073707bcc4c10d381
+  version: 0.24.31
+  resolution: "@sinclair/typebox@npm:0.24.31"
+  checksum: 7bd64b8f7b5241ba6dea3547a0400def9dbeae1df62e22d5b6d02d00c47533fe0da9c1c0094dd1cbd5c6a2afacd81349b0fcb5e00bc43bdb92ba105378a0e0d3
   languageName: node
   linkType: hard
 
@@ -3418,17 +3440,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*":
+"@types/node@npm:*, @types/node@npm:18.7.14":
   version: 18.7.14
   resolution: "@types/node@npm:18.7.14"
   checksum: 99cf28ff854100158de875cca23c7acc3cc01dfee526a52b90b7f36767c821bcbaf2be0a98a70f06f3b78f3c60639168ff949d725b61e2e124f9f71f1fb8043d
-  languageName: node
-  linkType: hard
-
-"@types/node@npm:18.7.13":
-  version: 18.7.13
-  resolution: "@types/node@npm:18.7.13"
-  checksum: 45431e7e89ecaf85c7d2c180d801c132a7c59e2f8ad578726b6d71cc74e3267c18f9ccdcad738bc0479790c078f0c79efb0e58da2c6be535c15995dbb19050c9
   languageName: node
   linkType: hard
 
@@ -3566,7 +3581,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*":
+"@types/react@npm:*, @types/react@npm:18.0.18":
   version: 18.0.18
   resolution: "@types/react@npm:18.0.18"
   dependencies:
@@ -4801,17 +4816,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caniuse-lite@npm:^1.0.0, caniuse-lite@npm:^1.0.30001373":
+"caniuse-lite@npm:^1.0.0, caniuse-lite@npm:^1.0.30001370, caniuse-lite@npm:^1.0.30001373":
   version: 1.0.30001385
   resolution: "caniuse-lite@npm:1.0.30001385"
   checksum: fc526aa2a8070f7b77e7128567cb7e599ae7b1a172bef965f60345b7a327daa5029e984b42819e5c0a6de4282c9e932f58978cf36f58cc381d5128a940485d96
-  languageName: node
-  linkType: hard
-
-"caniuse-lite@npm:^1.0.30001370":
-  version: 1.0.30001384
-  resolution: "caniuse-lite@npm:1.0.30001384"
-  checksum: 396f3fc70555e71202754dd2821311a5713294d6fb1a82713bf476d9da4a3530bc893fb4eb3c124a0ad545e0af225cdb9d1fd7f25236714e695157e82e395001
   languageName: node
   linkType: hard
 
@@ -5836,9 +5844,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.4.202":
-  version: 1.4.234
-  resolution: "electron-to-chromium@npm:1.4.234"
-  checksum: bca68aa398090e1f7e071bf9ce6b3695e96fde576f687498b4262df6dcaed6e36af1ffb704ad07ccae5885c554dedbd116755ead939c2d3157bff1a13fdfe62c
+  version: 1.4.237
+  resolution: "electron-to-chromium@npm:1.4.237"
+  checksum: 5f95ada8864dfa423e5fdc3ba69ee81d8229a6934079849b33125081d58f4d6243cc627bbfba8faea08fad2ed3e625cd6bcfcdfcbe6e984796e2bf9ca3ca2227
   languageName: node
   linkType: hard
 
@@ -8577,14 +8585,14 @@ __metadata:
     "@finos/babel-preset-legend-studio": "workspace:*"
     "@finos/eslint-plugin-legend-studio": "workspace:*"
     "@finos/legend-dev-utils": "workspace:*"
-    "@types/node": 18.7.13
+    "@types/node": 18.7.14
     chalk: 5.0.1
     cross-env: 7.0.3
     eslint: 8.23.0
     npm-run-all: 4.1.5
     prettier: 2.7.1
     rimraf: 3.0.2
-    sass: 1.54.6
+    sass: 1.54.7
     typescript: 4.8.2
   languageName: unknown
   linkType: soft
@@ -11754,6 +11762,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"sass@npm:1.54.7":
+  version: 1.54.7
+  resolution: "sass@npm:1.54.7"
+  dependencies:
+    chokidar: ">=3.0.0 <4.0.0"
+    immutable: ^4.0.0
+    source-map-js: ">=0.6.2 <2.0.0"
+  bin:
+    sass: sass.js
+  checksum: 4b6a10e93387e65dcbad2683d46b4249453ab8777c1bafab7a73ac3900a21fa91fa31d68df7a1b982c7e332a99b5574b1adc6168eb1ac6d7ebb28e18a65c4198
+  languageName: node
+  linkType: hard
+
 "saxes@npm:^6.0.0":
   version: 6.0.0
   resolution: "saxes@npm:6.0.0"
@@ -12613,7 +12634,7 @@ __metadata:
     "@finos/legend-shared": "workspace:*"
     "@finos/legend-storage": "workspace:*"
     "@jest/globals": 29.0.1
-    "@types/react": 18.0.17
+    "@types/react": 18.0.18
     cross-env: 7.0.3
     eslint: 8.23.0
     jest: 29.0.1
@@ -12622,7 +12643,7 @@ __metadata:
     npm-run-all: 4.1.5
     react: 18.2.0
     rimraf: 3.0.2
-    sass: 1.54.6
+    sass: 1.54.7
     serializr: 2.0.5
     typescript: 4.8.2
   peerDependencies:
